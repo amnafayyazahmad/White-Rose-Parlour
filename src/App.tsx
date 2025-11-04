@@ -142,12 +142,12 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Facial Treatments', desc: 'Rejuvenating facials for glowing skin', icon: '✨' },
-              { title: 'Hair Styling', desc: 'Expert cuts, colors, and treatments', icon: '💇' },
-              { title: 'Makeup Artistry', desc: 'Professional makeup for any occasion', icon: '💄' },
-              { title: 'Nail Care', desc: 'Manicures, pedicures, and nail art', icon: '💅' },
-              { title: 'Spa & Massage', desc: 'Relaxing treatments for body and mind', icon: '🧖' },
-              { title: 'Bridal Packages', desc: 'Complete bridal beauty solutions', icon: '👰' }
+              { title: 'Facial Treatments', desc: 'Rejuvenating facials for glowing skin', icon: '' },
+              { title: 'Hair Styling', desc: 'Expert cuts, colors, and treatments', icon: '' },
+              { title: 'Makeup Artistry', desc: 'Professional makeup for any occasion', icon: '' },
+              { title: 'Nail Care', desc: 'Manicures, pedicures, and nail art', icon: '' },
+              { title: 'Spa & Massage', desc: 'Relaxing treatments for body and mind', icon: '' },
+              { title: 'Bridal Packages', desc: 'Complete bridal beauty solutions', icon: '' }
             ].map((service, index) => (
               <div key={index} className="service-card group">
                 <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
@@ -167,7 +167,7 @@ function App() {
       <section id="gallery" className="py-20 px-4 bg-gradient-to-br from-pink-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 animate-fadeInUp">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl py-4 font-bold mb-4 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
               Gallery
             </h2>
             <p className="text-gray-600 text-lg">Discover our beautiful transformations</p>
@@ -189,11 +189,11 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fadeInUp">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
-                About Suchehwa
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-pink-900 bg-clip-text text-transparent">
+                About White Rose
               </h2>
               <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                Welcome to Suchehwa Beauty, where elegance meets expertise. With over a decade of experience,
+                Welcome to White Rose Beauty, where elegance meets expertise. With over a decade of experience,
                 we bring you the finest beauty treatments in a luxurious, serene environment.
               </p>
               <p className="text-gray-700 text-lg mb-6 leading-relaxed">
@@ -217,7 +217,7 @@ function App() {
             </div>
 
             <div className="relative animate-fadeInUp animation-delay-200">
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-pink-300 to-pink-400 shadow-2xl transform hover:scale-105 transition-transform duration-500"></div>
+              <div className="aspect-square border border-pink-900 rounded-3xl bg-gradient-to-br from-white-300 to-gray-900 shadow-2xl transform hover:scale-105 transition-transform duration-500"></div>
             </div>
           </div>
         </div>
@@ -225,7 +225,7 @@ function App() {
 
       <section className="py-20 px-4 bg-gradient-to-br from-pink-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl py-4 md:text-5xl   font-bold mb-6 bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent">
             What Our Clients Say
           </h2>
           <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -256,17 +256,17 @@ function App() {
             <div className="contact-card">
               <Phone className="w-12 h-12 text-pink-500 mb-4 mx-auto" />
               <h3 className="text-xl font-bold mb-2">Phone</h3>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-gray-600">+92 123-4567999</p>
             </div>
             <div className="contact-card">
               <Mail className="w-12 h-12 text-pink-500 mb-4 mx-auto" />
               <h3 className="text-xl font-bold mb-2">Email</h3>
-              <p className="text-gray-600">hello@suchehwa.com</p>
+              <p className="text-gray-600">hello@whiterose.com</p>
             </div>
             <div className="contact-card">
               <MapPin className="w-12 h-12 text-pink-500 mb-4 mx-auto" />
               <h3 className="text-xl font-bold mb-2">Location</h3>
-              <p className="text-gray-600">123 Beauty Lane, Suite 100</p>
+              <p className="text-gray-600">Hyderabad, Pakistan</p>
             </div>
           </div>
         </div>
@@ -278,7 +278,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Sparkles className="w-6 h-6" />
-                <span className="text-xl font-bold">Suchehwa Beauty</span>
+                <span className="text-xl font-bold">White Rose</span>
               </div>
               <p className="text-pink-100">Your destination for luxury beauty treatments</p>
             </div>
@@ -298,8 +298,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="border-t border-pink-400 pt-8 text-center text-pink-100">
-            <p>© 2024 Suchehwa Beauty. All rights reserved.</p>
+          <div className="border-t border-pink-900 pt-8 text-center text-pink-100">
+            <p>© 2025. All rights reserved.</p>
           </div>
         </div>
       </footer>
